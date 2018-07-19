@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="fgelli@next-gpu4.d2.comp.nus.edu.sg:22">
+    <serverData>
+      <paths name="fgelli@next-gpu4.d2.comp.nus.edu.sg:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/storage/fgelli/code" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
