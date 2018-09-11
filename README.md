@@ -16,10 +16,10 @@ Note: computation on cpu can be slow.
 ## DATASET
 Dataset can be downloaded [here](https://drive.google.com/file/d/1LtmuhaqKfHX-ExEt5FLPNYxThptS4obl/view?usp=sharing). It consists in:
 * brand_list.csv: list of brands with additional information
-* training/posts.csv: metadata for training posts 
+* training/posts.csv: metadata for training posts (brand_username,post_code,num_likes,num_comments,date_posted,date_crawled)
 * training/captions.csv: text captions for training posts 
 * training/neg_samples.csv: negative samples used for training
-* testing/posts.csv: metadata for testing posts 
+* testing/posts.csv: metadata for testing posts (brand_username,post_code,num_likes,num_comments,date_posted,date_crawled)
 * testing/captions.csv: text captions for testing posts 
 * features/features.npy: visual features, previously extracted using the provided extract_visual_feature.py script. Not released given large size.
 * features/map_list.pickle: indicates in which way visual features are ordered. Also generated with the provided extract_visual_feature.py script.
